@@ -1,0 +1,32 @@
+.work{
+    height: 58rem;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center ;
+    align-items: center;
+    &-title{
+        font-weight: 300;
+        margin: 3rem 0;
+        border-bottom: 3px solid $border-bottom-color;
+    }
+    &-item{
+        max-width: 20rem;
+        &-title{
+            font-size: $font-size-title;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        &-date{
+            font-size: $font-size;
+            font-weight: 300;
+            margin-bottom: 1rem;
+
+        }
+        &-description{
+            font-size: $font-size-small;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            line-height: 30px;
+        }
+    }
+}

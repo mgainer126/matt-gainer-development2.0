@@ -1,0 +1,57 @@
+.hero{
+    height: 44rem;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+    
+    &-title{
+        max-width: 20rem;
+        margin-bottom: 1rem;
+        font-size: $font-size-header;
+        font-weight: 300;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        margin: 0 0 0 auto ;
+        color: $title-color-onDark;
+
+        
+    }
+    &-description{
+        max-width: 20rem;
+        margin: 1rem 0 3rem 0;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $text-color-lightgrey;
+        font-size: $font-size;
+        font-family: 'Libre Baskeville', serif;
+    }
+    &-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 9rem;
+        height: 3.375rem;
+        background-color:$btn-grey;
+        color: $title-color-onDark;
+
+    }
+    &-btn:hover{
+        background-color: $color5;
+        color: $title-color-onDark;
+    }
+    &-btn:active{
+        background-color: $color5;
+        color: $title-color-onDark;
+    }
+    &-github{
+        font-size: $font-size;
+        font-weight: 100;
+        margin-left: 0.5rem;
+    }
+}

@@ -1,0 +1,34 @@
+.works{
+    height: 75rem;
+    background-color: $background-grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &-title{
+        font-weight: 300;
+        margin: 3rem 0;
+        font-size: $font-size;
+        color: $title-color-onLgtGrey;
+    }
+    &-item{
+        width: 20.5rem;
+        height: 12.3rem;
+        background-color: white;
+        margin-bottom: 1.5rem;
+        &-img{
+            width: 20.625rem;
+            height: 10.4413rem;
+            object-fit: cover;
+        }
+        &-title{
+            font-size: $font-size;
+            font-weight: 300;
+            color: $title-color-onLgtGrey;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    
+}

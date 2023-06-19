@@ -1,0 +1,46 @@
+.contact{
+    height: 90rem;
+    background-color: $background-drkgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: $title-color-ondarkgrey;
+    &-title{
+        color: $title-color-ondarkgrey;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        max-width: 20rem;
+    }
+    &-description{
+        color: $text-color-ondarkgrey;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        max-width: 20rem;
+    }
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    &-name{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &-email{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &-message{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &-submit{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    
+}
