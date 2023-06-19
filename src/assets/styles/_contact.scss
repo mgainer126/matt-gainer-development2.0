@@ -8,16 +8,44 @@
     color: $title-color-ondarkgrey;
     &-title{
         color: $title-color-ondarkgrey;
-        font-size: 3rem;
+        font-size: $font-size;
+        font-weight: 300;
         margin-bottom: 2rem;
-        max-width: 20rem;
+        // max-width: 20rem;
     }
     &-description{
         color: $text-color-ondarkgrey;
-        font-size: 1.5rem;
+        font-size: $font-size;
+        line-height: 33px;
         margin-bottom: 2rem;
-        max-width: 20rem;
+        max-width: 19.75rem;
     }
+}
+
+.form{
+    &-element{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    &-label{
+        color: $title-color-ondarkgrey;
+        font-size: $font-size;
+        margin-bottom: .5rem;
+    }
+    &-input{
+        background-color: $background-form;
+        border: none;
+        height: 2.75rem;
+        &-message{
+            height: 23.75rem;
+            background-color: $background-form;
+        }
+    }
+}
+
+.required{
+    color: $border-bottom-color;
 }
 #contact-form{
     display: flex;
@@ -25,22 +53,44 @@
     justify-content: center;
     align-items: center;
     width: 20rem;
+    
+    
+
     &-name{
         width: 100%;
         margin-bottom: 1rem;
+        
     }
     &-email{
         width: 100%;
         margin-bottom: 1rem;
+        
     }
     &-message{
         width: 100%;
         margin-bottom: 1rem;
+        
+        
     }
     &-submit{
         width: 100%;
         margin-bottom: 1rem;
+        
+        
     }
 
     
+}
+
+#contact-message{
+    height: 23.75rem;
+}
+
+.submit{
+    height: 3.375rem;
+    width: 7.4375rem;
+    background-color: $btn-drk-color;
+    color: $title-color-onDark;
+    font-size: $font-size;
+    margin-top: 2rem;
 }

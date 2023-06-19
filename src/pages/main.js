@@ -49,10 +49,13 @@ function Main () {
                 <p className="hero-description">
                     {data.main.description}
                 </p>
+                <a href={data.main.github} className="hero-link">
                 <div className="hero-btn">
-                    <img src={github} alt="github" className="hero-btn-icon"/>
-                    <p className="hero-github">GitHub</p>
-                </div>
+                  <img src={github} alt="github" className="hero-btn-icon"/>
+                  <p className="hero-github">GitHub</p>
+              </div>
+                </a>
+
             </section>
             <section className="about">
                 <section className="about-me">
@@ -70,7 +73,7 @@ function Main () {
                     <p className="about-company">{data.main.email}</p>
                     <div className="about-resume">
                         <img src={download} alt="download" className="about-resume-icon"/>
-                        <a href={data.main.resumeDownload} className="about-resume-btn">Download Resume</a>
+                        <a href="https://1drv.ms/w/s!AtKTEtRydYtmk1xPa-GdpnYL77fj?e=sAeDks" className="about-resume-btn">Download Resume</a>
                     </div>
                 </section>
             </section>
@@ -157,7 +160,7 @@ function Main () {
        </div>
             </section>
             <section className="contact">
-                <h2 className="contact-title">GET IN TOUCH</h2>
+                <h2 className="contact-title">GET IN TOUCH.</h2>
                 <p className="contact-description">{data.main.contactmessage}</p>
                 <div className="row">
     
@@ -165,8 +168,8 @@ function Main () {
               {/* <form action="" method="post" id="contactForm" name="contactForm"> */}
               <form id="contactForm" name="contactForm" onSubmit={sendEmail}>
                 <fieldset>
-                  <div>
-                    <label htmlFor="contactName">
+                  <div className="form-element">
+                    <label htmlFor="contactName" className="form-label">
                       Name <span className="required">*</span>
                     </label>
                     <input
@@ -175,12 +178,13 @@ function Main () {
                       size="35"
                       id="contactName"
                       name="contactName"
+                      className="form-input"
                     //   onChange={this.handleChange}
                     />
                   </div>
 
-                  <div>
-                    <label htmlFor="contactEmail">
+                  <div className="form-element">
+                    <label htmlFor="contactEmail" className="form-label">
                       Email <span className="required">*</span>
                     </label>
                     <input
@@ -189,24 +193,26 @@ function Main () {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
+                      className="form-input"
                     //   onChange={this.handleChange}
                     />
                   </div>
 
-                  <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                  <div className="form-element">
+                    <label htmlFor="contactSubject" className="form-label">Subject</label>
                     <input
                       type="text"
                       defaultValue=""
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
+                      className="form-input"
                     //   onChange={this.handleChange}
                     />
                   </div>
 
-                  <div>
-                    <label htmlFor="contactMessage">
+                  <div className="form-element">
+                    <label htmlFor="contactMessage" className="form-label">
                       Message <span className="required">*</span>
                     </label>
                     <textarea
@@ -214,11 +220,12 @@ function Main () {
                       rows="15"
                       id="contactMessage"
                       name="contactMessage"
+                      className="form-input-message"
                     ></textarea>
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">SUBMIT</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -227,10 +234,10 @@ function Main () {
               </form>
 
               {/* <div id="message-warning"> Error boy</div> */}
-              <div id="message-success">
+              {/* <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
-              </div>
+              </div> */}
             </div>
    
 

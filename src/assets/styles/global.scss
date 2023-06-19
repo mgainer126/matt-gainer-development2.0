@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     font-family: open-sans, sans-serif;
+    border: none;
    }
 
    ul {
@@ -22,4 +23,8 @@
   }
 
   a {text-decoration: none !important;
+}
+
+
+a:visited {color: #eeeded !important;
 }
