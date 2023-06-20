@@ -19,10 +19,8 @@ function About (){
                 <h2 className="about-title">Contact Details</h2>
                 <p className="about-company">{data.main.name}</p>
                 <p className="about-company">{data.main.address.street}</p>
-                <p className="about-company">{data.main.address.city}</p>
-                <p className="about-company">{data.main.address.state}</p>
-                <p className="about-company">{data.main.address.zip}</p>
-                <p className="about-company">{data.main.phone}</p>
+                <p className="about-company">{data.main.address.city}, {data.main.address.state}, {data.main.address.zip} </p>
+                 <p className="about-company">{data.main.phone}</p>
                 <p className="about-company">{data.main.email}</p>
             </div>    
             <div>

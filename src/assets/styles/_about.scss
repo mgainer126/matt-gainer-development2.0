@@ -63,14 +63,15 @@
     .about{
         &-about{
             display: flex;
+            
         }
         &-img{
             display: block;
             border-radius: 20%;
             height: 120px;
             width: 120px;
-            margin-left: -10rem;
-            margin-right: 2.5rem;    
+            margin-left: -18rem;
+            margin-right: 10rem;    
         }
         &-description{
             width: 668.13px;
