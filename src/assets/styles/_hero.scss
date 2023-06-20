@@ -55,3 +55,26 @@
         margin-left: 0.5rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+.hero{
+    &-title{
+        max-width: 870px;
+    }
+    &-description{
+        max-width: 586px;
+        font-size: 18px;
+        font-family: 'Libre Baskeville', serif;
+    }
+    &-btn{
+        width: 143px;
+        height: 54px;
+
+    }
+    &-github{
+        font-size: 18px;
+        font-weight: 100;
+        margin-left: 0.5rem;
+    }
+}
+}
