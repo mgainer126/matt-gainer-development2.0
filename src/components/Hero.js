@@ -7,6 +7,7 @@ function Hero (){
     return(
         <section className="hero">
         <ParticlesBg color="#191919" type="lines" bg={true} />
+       
             <h1 className="hero-title">
                 {data.main.name}
             </h1>
@@ -19,7 +20,7 @@ function Hero (){
               <p className="hero-github">GitHub</p>
           </div>
             </a>
-
+           
         </section>
     )
 }

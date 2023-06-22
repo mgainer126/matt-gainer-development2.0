@@ -10,34 +10,25 @@ function Works (){
         <section className="works">
         <h2 className="works-title">CHECK OUT SOME OF MY WORKS</h2>
            <div className="works-list">
-            <a href="https://www.mattgainerdevelopment.com/" className="works-item" >
+            <a href="https://www.mattgainerdevelopment.com/" >
               <div className="works-item" >
                 <img src={portfolio} alt="project" className="works-item-img"/>
                 <div className="works-item-title">{data.portfolio.projects[0].title}</div>
               </div>
             </a>
-{/*                     
-            <a href="https://gleaming-cajeta-8effdd.netlify.app/" className="works-item" >
-            <div className="works-item" >
-              <img src={dashboard} alt="project" className="works-item-img"/>
-              <div className="works-item-title">{data.portfolio.projects[1].title}</div>
-            </div>
-            </a> */}
-            <a href="https://www.foodiofare.com/" className="works-item" >
+            <a href="https://www.foodiofare.com/" >
             <div className="works-item" >
               <img src={foodiofare} alt="project" className="works-item-img"/>
               <div className="works-item-title">{data.portfolio.projects[2].title}</div>
             </div>
             </a>
-            <a href="https://www.brewercave.com/" className="works-item" >
-
+            <a href="https://www.brewercave.com/" >
             <div className="works-item" >
               <img src={brewercave} alt="project" className="works-item-img"/>
               <div className="works-item-title">{data.portfolio.projects[3].title}</div>
             </div>
             </a>
-
-            <a href="https://coolhunterz.netlify.app/" className="works-item" >
+            <a href="https://coolhunterz.netlify.app/" >
             <div className="works-item" >
               <img src={ecommerce} alt="project" className="works-item-img"/>
               <div className="works-item-title">{data.portfolio.projects[4].title}</div>

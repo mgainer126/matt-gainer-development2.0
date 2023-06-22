@@ -19,6 +19,7 @@
         line-height: 33px;
         margin-bottom: 2rem;
         max-width: 19.75rem;
+        font-weight: 200;
     }
 }
 
@@ -93,4 +94,37 @@
     color: $title-color-onDark;
     font-size: $font-size;
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .form{
+        &-label{
+            
+            margin: 1rem;
+
+        }
+        &-element{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        &-input{
+            width: 30rem;
+            margin: 1rem;
+            &-message{
+                width: 30rem;
+                margin: 1rem;
+            }
+        }
+    }
+    .contact{
+        &-description{
+            max-width: 36.75rem;
+        }
+    }
+    .submit{
+        margin-left: 7.5rem;
+    }
 }

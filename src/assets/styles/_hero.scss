@@ -4,17 +4,18 @@
     flex-direction: column ;
     justify-content: center;
     align-items: center;
+    letter-spacing: 2px;
 
     
     &-title{
         max-width: 20rem;
-        margin-bottom: 1rem;
+        margin: 1rem 0 3rem 0;
         font-size: $font-size-header;
         font-weight: 300;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: center;
+        align-items: center;
     
         color: $title-color-onDark;
 
@@ -27,9 +28,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: $text-color-lightgrey;
-        font-size: $font-size;
-        font-family: 'Libre Baskeville', serif;
+        color: #ddd;
+        font-family: 'librebaskerville-regular', serif;
+        
     }
     &-btn{
         display: flex;
@@ -59,12 +60,16 @@
 @media screen and (min-width: 1024px) {
 .hero{
     &-title{
-        max-width: 870px;
+        max-width: 590px;
+        font-size: 86.4px;
+        font-weight: 400;
+
     }
     &-description{
         max-width: 586px;
-        font-size: 18px;
-        font-family: 'Libre Baskeville', serif;
+        font-size: 22px;
+       
+        
     }
     &-btn{
         width: 143px;
@@ -77,4 +82,15 @@
         margin-left: 0.5rem;
     }
 }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .hero{
+        height: 100vh;
+        &-title{
+            font-family: 'opensans-bold', sans-serif;
+        }
+    }
+
 }
