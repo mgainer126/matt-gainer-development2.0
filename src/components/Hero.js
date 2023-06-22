@@ -4,23 +4,13 @@ import data from "../assets/data/resumeData.json";
 
 
 function Hero (){
-    let config = {
-        position: "absolute",
-        zIndex: -1,
-        top: 0,
-        left: 0,
-        width: "100vw",
-        height: "100vh",
-        left: 0
-        
-    };
 
 
     return(
         <>
-       {/* <ParticlesBg type='custom' config={config} bg={true} /> */}
+      
         <section className="hero">
-        <ParticlesBg color="random" type="square" bg={true} config={config}/>
+        <ParticlesBg color="random" type="square" bg={true} />
         
        
             <h1 className="hero-title">

@@ -18,8 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "version",
-    "prettier": "^3.0.0-alpha.6"
+     "prettier": "^3.0.0-alpha.6"
   },
   "scripts": {
     "start": "react-scripts start",

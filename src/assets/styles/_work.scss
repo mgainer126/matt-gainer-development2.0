@@ -16,16 +16,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        &-title{
-            font-size: $font-size;
-            font-weight: 300;
+        &-company{
+            font-size: $font-size-title;
+            font-weight: 400;
             margin-bottom: 1rem;
         }
-        &-date{
+        &-title{
+            font-size: $font-size-small;
+            font-weight: 400;
+            
+
+        }
+        &-years{
             font-size: $font-size-small;
             font-weight: 300;
             margin-bottom: 1rem;
-
         }
         &-description{
             font-size: $font-size-small;
@@ -47,6 +52,18 @@
         &-item{
              width: 658px;
              align-items: flex-start;
+                &-company{
+                    font-size: $font-size-title;
+                }
+                &-title{
+                    font-size: $font-size;
+                }
+                &-years{
+                    font-size: $font-size;
+                }
+                &-description{
+                    font-size: $font-size;
+                }
         }
     }
 }
