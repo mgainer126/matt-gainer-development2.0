@@ -120,8 +120,17 @@
         }
     }
     .contact{
+        display: flex;
+
+        &-title{
+            display: flex;
+            justify-content: center;
+        }
         &-description{
-            max-width: 36.75rem;
+            max-width: 30rem;
+            margin-left: 8rem;
+            
+
         }
     }
     .submit{

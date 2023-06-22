@@ -1,8 +1,31 @@
 import data from "../assets/data/resumeData.json";
 import emailjs from "emailjs-com";
+import React from 'react';
 
 
 function Contact (){
+  const [isVisible, setVisible] = React.useState(true);
+  const domRef = React.useRef();
+
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+
+    const currentRef = domRef.current; // Create a local variable
+
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
+
+
     function sendEmail(e) {
         e.preventDefault();
   
@@ -26,6 +49,8 @@ function Contact (){
 
     return(
         <section className="contact">
+        <div className={`fade-in-left ${isVisible ? 'is-visible' : ''}`}
+        ref={domRef}>
         <h2 className="contact-title">GET IN TOUCH.</h2>
         <p className="contact-description">{data.main.contactmessage}</p>
         <div className="row">
@@ -103,6 +128,7 @@ function Contact (){
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
           </div> */}
+        </div>
         </div>
         </div>
     </section>
