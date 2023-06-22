@@ -1,3 +1,7 @@
+.particles-bg-canvas-self{
+    background-color: rgb(3, 3, 3);
+}
+
 .hero{
     height: 41.5rem;
     display: flex;
@@ -5,6 +9,8 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
+    
+   
 
     
     &-title{
