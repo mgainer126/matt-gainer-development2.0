@@ -10,14 +10,19 @@
         border-bottom: 3px solid $border-bottom-color;
     }
     &-item{
-        max-width: 20rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         &-title{
-            font-size: $font-size-title;
-            font-weight: 400;
+            font-size: $font-size;
+            font-weight: 300;
             margin-bottom: 1rem;
         }
         &-date{
-            font-size: $font-size;
+            font-size: $font-size-small;
             font-weight: 300;
             margin-bottom: 1rem;
 
@@ -27,6 +32,21 @@
             font-weight: 300;
             margin-bottom: 1rem;
             line-height: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .work{
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 6rem;
+        &-list{
+            margin: 3rem 0 0 10rem;
+        }
+        &-item{
+             width: 658px;
+             align-items: flex-start;
         }
     }
 }

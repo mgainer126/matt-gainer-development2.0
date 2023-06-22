@@ -32,3 +32,18 @@
     
     
 }
+
+@media screen and (min-width: 1024px) {
+    .works{
+        &-title{
+            margin-left: 10rem;
+        }
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            width: 800px;
+            flex-wrap: wrap;
+            margin: 0 0 0 10rem;
+        }
+    }
+}
