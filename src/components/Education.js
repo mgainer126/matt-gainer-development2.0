@@ -1,47 +1,56 @@
-import React from 'react';
+import React from "react";
 import data from "../assets/data/resumeData.json";
 
 function Education() {
-    const [isVisible, setVisible] = React.useState(true);
-    const domRef = React.useRef();
-  
-    React.useEffect(() => {
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => setVisible(entry.isIntersecting));
-      });
-  
-      if (domRef.current) {
-        observer.observe(domRef.current);
+  const [isVisible, setVisible] = React.useState(true);
+  const domRef = React.useRef();
+
+  React.useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => setVisible(entry.isIntersecting));
+    });
+
+    const currentRef = domRef.current; // Create a local variable
+
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
-  
-      return () => {
-        if (domRef.current) {
-          observer.unobserve(domRef.current);
-        }
-      };
-    }, []);
-  
-    return (
-        <div className={`fade-in-left ${isVisible ? 'is-visible' : ''}`}
-        ref={domRef}>
-      <section className="education" >
+    };
+  }, []);
+
+  return (
+    <div
+      className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
+      ref={domRef}
+    >
+      <section className="education">
         <h2 className="education-title">EDUCATION</h2>
         <div className="education-list">
           {data.resume.education.map((item, index) => {
             return (
               <div className="education-item" key={index}>
-                <div className="education-item-title">{item.school}</div>
-                <div className="education-item-major">{item.degree}</div>
-                <div className="education-item-date">{item.graduated}</div>
-                <div className="education-item-description">{item.description}</div>
+                <p className="education-item-title">{item.school}</p>
+                <p className="education-item-major">{item.degree}</p>
+                <p className="education-item-date">{item.graduated}</p>
+                {item.description.map((item, index) => {
+                  return (
+                    <p className="education-item-description" key={index}>
+                      {item}
+                    </p>
+                  );
+                })}
               </div>
             );
           })}
         </div>
       </section>
-      </div> 
-    );
-  }
-  
-  export default Education;
-  
+    </div>
+  );
+}
+
+export default Education;
