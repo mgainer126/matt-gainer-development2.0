@@ -21,6 +21,9 @@
     max-width: 19.75rem;
     font-weight: 200;
   }
+  &-logo {
+    display: none;
+  }
 }
 
 .form {
@@ -109,6 +112,9 @@
   }
   .contact {
     display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 3rem 0;
 
     &-title {
       display: flex;
@@ -116,9 +122,14 @@
     }
     &-description {
       max-width: 30rem;
-      margin-left: 8rem;
+      margin: 1.5rem;
+    }
+    &-logo {
+      display: flex;
+      width: 23rem;
     }
   }
+
   .submit {
     margin-left: 7.5rem;
   }

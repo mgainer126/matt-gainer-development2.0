@@ -1,6 +1,7 @@
 import data from "../assets/data/resumeData.json";
 import emailjs from "emailjs-com";
 import React from "react";
+import icon from "../assets/images/logo.png";
 
 function Contact() {
   const [isVisible, setVisible] = React.useState(true);
@@ -52,11 +53,14 @@ function Contact() {
   return (
     <section className="contact">
       <div
-        className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
+        className={`fade-in-left ${isVisible ? "is-visible" : ""} contact`}
         ref={domRef}
       >
-        <h2 className="contact-title">GET IN TOUCH.</h2>
-        <p className="contact-description">{data.main.contactmessage}</p>
+        <div>
+          <h2 className="contact-title">GET IN TOUCH.</h2>
+          <p className="contact-description">{data.main.contactmessage}</p>
+          <img src={icon} alt="logo" className="contact-logo" />
+        </div>
         <div className="row">
           <div className="eight columns">
             {/* <form action="" method="post" id="contactForm" name="contactForm"> */}
