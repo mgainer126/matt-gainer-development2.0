@@ -3,12 +3,13 @@
 }
 
 .hero {
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   letter-spacing: 2px;
+  // padding: 4rem 0;
 
   &-logo {
     width: 23rem;
