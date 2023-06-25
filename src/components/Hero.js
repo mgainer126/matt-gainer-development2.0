@@ -5,7 +5,7 @@ import logo from "../assets/images/logo.png";
 
 function Hero() {
   return (
-    <>
+    <div className="hero-container">
       <section className="hero">
         <ParticlesBg color="random" type="square" bg={true} />
 
@@ -21,7 +21,7 @@ function Hero() {
           </div>
         </a>
       </section>
-    </>
+    </div>
   );
 }
 

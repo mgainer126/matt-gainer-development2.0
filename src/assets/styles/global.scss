@@ -8,26 +8,30 @@
 @import "./skills";
 @import "./footer";
 
-
-
 * {
-    margin: 0;
-    padding: 0;
-    font-family: open-sans, sans-serif;
-    border: none;
-   }
-
-   ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  a {text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+  font-family: open-sans, sans-serif;
+  border: none;
+  // background-color: $background-blue;
 }
 
+body {
+  background-color: $background-blue;
+}
 
-a:visited {color: #eeeded !important;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #eeeded !important;
 }
 
 .fade-in-left {

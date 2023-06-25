@@ -1,15 +1,18 @@
-.particles-bg-canvas-self {
-  background-color: rgb(3, 3, 3);
-}
+// .hero-container {
+//   background-color: black;
+// }
 
-.hero {
+body .hero {
   height: 100vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   letter-spacing: 2px;
-  // padding: 4rem 0;
+
+  .particles-bg-canvas-self {
+    background-color: rgb(3, 3, 3);
+  }
 
   &-logo {
     width: 23rem;
