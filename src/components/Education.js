@@ -24,11 +24,11 @@ function Education() {
   }, []);
 
   return (
-    <div
-      className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
-      ref={domRef}
-    >
-      <section className="education">
+    <section className="education">
+      <div
+        className={`fade-in-left ${isVisible ? "is-visible" : ""} alignment`}
+        ref={domRef}
+      >
         <h2 className="education-title">EDUCATION</h2>
         <div className="education-list">
           {data.resume.education.map((item, index) => {
@@ -48,8 +48,8 @@ function Education() {
             );
           })}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

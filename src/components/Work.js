@@ -23,11 +23,11 @@ function Work() {
     };
   }, []);
   return (
-    <div
-      className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
-      ref={domRef}
-    >
-      <section className="work">
+    <section className="work">
+      <div
+        className={`fade-in-left ${isVisible ? "is-visible" : ""} alignment`}
+        ref={domRef}
+      >
         <h2 className="work-title">WORK</h2>
         <div className="work-list">
           {data.resume.work.map((item, index) => {
@@ -48,8 +48,8 @@ function Work() {
             );
           })}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

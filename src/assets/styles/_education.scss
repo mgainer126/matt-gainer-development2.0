@@ -1,4 +1,4 @@
-body .education {
+.education {
   height: auto;
   display: flex;
   justify-content: center;
@@ -8,8 +8,10 @@ body .education {
   background-color: white;
   &-title {
     font-weight: 300;
-    margin: 3rem 0;
+    margin: 2rem auto;
     border-bottom: 3px solid $border-bottom-color;
+    width: fit-content;
+    height: 2rem;
   }
   &-item {
     width: 20rem;
@@ -46,10 +48,9 @@ body .education {
   .education {
     flex-direction: row;
     align-items: flex-start;
-    margin: 6rem;
 
     &-list {
-      margin: 3rem 0 0 9rem;
+      margin: 3rem 0 0 6rem;
     }
     &-item {
       width: 658px;

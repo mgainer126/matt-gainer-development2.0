@@ -5,15 +5,13 @@ import logo from "../assets/images/logo.png";
 
 function Hero() {
   return (
-    <div className="hero-container">
+    <>
       <section className="hero">
         <ParticlesBg color="random" type="square" bg={true} />
 
         {/* <h1 className="hero-title">{data.main.name}</h1> */}
+        <img src={logo} alt="logo" className="hero-logo" />
 
-        <p className="hero-description">
-          <img src={logo} alt="logo" className="hero-logo" />
-        </p>
         <a href={data.main.github} className="hero-link">
           <div className="hero-btn">
             <img src={github} alt="github" className="hero-btn-icon" />
@@ -21,7 +19,7 @@ function Hero() {
           </div>
         </a>
       </section>
-    </div>
+    </>
   );
 }
 
