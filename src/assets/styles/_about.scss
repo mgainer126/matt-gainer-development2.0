@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   background-color: $background-blue;
-  padding: 3rem 0;
+  // padding: 3rem 0;
   &-img {
     display: none;
   }
@@ -19,6 +19,7 @@
     color: $title-color-onDark;
     font-weight: 300;
     margin-bottom: 1rem;
+    margin-top: 3rem;
   }
   &-description {
     color: $text-color-onDark;
@@ -43,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin: 1rem 0 3rem 0;
     &-btn {
       margin-left: 1rem;
     }
