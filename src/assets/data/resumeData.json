@@ -161,45 +161,5 @@
         "level": "100"
       }
     ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Resume Website",
-        "category": "Work",
-        "image": "../images/01.png",
-        "url": "https://www.mattgainerdevelopment.com/"
-      },
-      {
-        "title": "Matt's Dashboard",
-        "category": "Investement",
-        "image": "02.png",
-        "url": "https://gleaming-cajeta-8effdd.netlify.app/"
-      },
-      {
-        "title": "Foodio Fare",
-        "category": "Food",
-        "image": "03.png",
-        "url": "https://www.foodiofare.com/"
-      },
-      {
-        "title": "Brewer Cave",
-        "category": "Food",
-        "image": "04.png",
-        "url": "https://www.brewercave.com/"
-      },
-      {
-        "title": "Cool Hunterz",
-        "category": "eCommerce",
-        "image": "05.png",
-        "url": "https://coolhunterz.netlify.app/"
-      },
-      {
-        "title": "ProGear 180",
-        "category": "eCommerce",
-        "image": "06.png",
-        "url": "https://progear180.com/"
-      }
-    ]
   }
 }
