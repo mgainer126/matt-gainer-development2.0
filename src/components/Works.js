@@ -72,7 +72,7 @@ function Works() {
             <div className="works-item">
               <img src={progear180} alt="project" className="works-item-img" />
               <div className="works-item-title">
-                {data.portfolio.projects[4].title}
+                {data.portfolio.projects[5].title}
               </div>
             </div>
           </a>
