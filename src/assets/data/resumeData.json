@@ -193,6 +193,12 @@
         "category": "eCommerce",
         "image": "05.png",
         "url": "https://coolhunterz.netlify.app/"
+      },
+      {
+        "title": "ProGear 180",
+        "category": "eCommerce",
+        "image": "06.png",
+        "url": "https://progear180.com/"
       }
     ]
   }
