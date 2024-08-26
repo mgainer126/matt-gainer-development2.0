@@ -4,9 +4,9 @@
     "description": "With a genuine passion for creating enaging user experiences, I thrive on the boundless possibilities it offers.",
     "image": "profilepic.jpg",
     "bio": [
-      "As a seasoned product owner, I bring a well-rounded skill set and thrive on delivering exceptional customer value. By merging my technical expertise and creative mindset, I design immersive user experiences that transcend mere functionality. Moreover, my strategic thinking ensures that every web solution seamlessly aligns with business goals and exceeds customer expectations.",
-      "My commitment to staying updated with the latest industry trends is unwavering. I continually update my skills to leverage cutting-edge technologies, ensuring that I can approach development projects from a holistic perspective. This approach allows me to consider both the technical aspects and the overall customer experience, striving to develop web solutions that leave a lasting impact and resonate with users on both functional and emotional levels.",
-      "Passion, expertise, and a customer-centric focus drive me to create exceptional web solutions. I am well-equipped to bring value to any web development project through my dedication to staying ahead of the curve and my ability to blend creativity with technical proficiency. With me, you'll have a dynamic candidate who can deliver remarkable customer experiences and contribute to the growth and success of your organization."
+      "As a seasoned product owner, I bring a well-rounded skill set and thrive on delivering exceptional customer value. By merging my technical expertise and creative mindset, I design immersive user experiences that transcend mere functionality. Moreover, my strategic thinking ensures that every outcome aligns with business goals and exceeds customer expectations.",
+      "My commitment to staying updated with the latest industry trends is unwavering. I continually update my skills to leverage cutting-edge technologies, ensuring that I can approach  projects from a holistic perspective. This approach allows me to consider both the technical aspects and the overall customer experience, striving to an experience that leave a lasting impact and resonate with users on both functional and emotional levels.",
+      "Passion, expertise, and a customer-centric focus drive me to create exceptional solutions. I am well-equipped to bring value to any  project through my dedication to staying ahead of the curve and my ability to blend creativity with technical proficiency. With me, you'll have a dynamic candidate who can deliver remarkable customer experiences and contribute to the growth and success of your organization."
     ],
     "contactmessage": "Unlock the potential of your development projects and let's connect! Whether by phone or message, I eagerly await the chance to delve into your specific needs and explore how my expertise can make a meaningful impact.",
     "email": "matt.gainer126@gmail.com",
@@ -38,6 +38,17 @@
     "skillmessage": "Here are my skills and tools I am experienced with",
     "education": [
       {
+        "school": "Scrum Alliance",
+        "degree": "Scrum Product Owner Certificate",
+        "graduated": "Sept 2019",
+        "description": [
+          "As a seasoned Product Owner, I have mastered the art of effective communication with stakeholders at every level. From engaging with customers to collaborating with business managers and development teams, I understand the importance of ensuring clarity in goals and aligning the vision with business objectives. A crucial tool in maintaining that unwavering vision is the creation of a dynamic product roadmap.",
+          "With my expertise, I craft a compelling product roadmap that serves as a guiding light, illuminating the path to success. This strategic roadmap outlines the captivating vision and the progressive direction for our product offering over time. By carefully charting this course, I empower teams to stay focused, remain motivated, and make impactful decisions that drive the achievement of our goals.",
+          "With the product roadmap as our compass, we navigate through challenges and seize opportunities, ensuring that our product stays relevant and ahead of the curve. It becomes the backbone of our success, painting a vivid picture of our future and instilling confidence in our stakeholders.",
+          "As a Technology Product Manager, I embrace the responsibility of shaping the product's destiny. I bring my expertise in communication, stakeholder management, and strategic planning to craft a compelling product roadmap that ignites enthusiasm and drives success. Together, we will embark on an exciting journey, turning our vision into reality, and achieving remarkable milestones along the way."
+        ]
+      },
+      {
         "school": "BrainStation College",
         "degree": "Web Development Diploma",
         "graduated": "Aug 2021",
@@ -47,17 +58,6 @@
           "Security is a top priority, and I have delved into user authentication, OAuth, and secure deployment on platforms like Heroku and GitHub. My skills encompass the powerful bundler Webpack, ensuring efficient and optimized web applications. I have dived into database management with MySQL, ensuring data integrity and efficient querying.",
           "Quality assurance is ingrained in my development process. I have embraced testing frameworks like Jest and Enzyme, guaranteeing stable and bug-free code. Furthermore, my proficiency in project management tools like Jira and Confluence ensures seamless collaboration and streamlined workflows.",
           "With this arsenal of skills, I am equipped to bring visions to life and create remarkable digital experiences. I am ready to embark on new challenges, leveraging my diverse skill set to develop cutting-edge solutions that push boundaries and surpass expectations."
-        ]
-      },
-      {
-        "school": "Scrum Alliance",
-        "degree": "Scrum Product Owner Certificate",
-        "graduated": "Sept 2019",
-        "description": [
-          "As a seasoned Product Owner, I have mastered the art of effective communication with stakeholders at every level. From engaging with customers to collaborating with business managers and development teams, I understand the importance of ensuring clarity in goals and aligning the vision with business objectives. A crucial tool in maintaining that unwavering vision is the creation of a dynamic product roadmap.",
-          "With my expertise, I craft a compelling product roadmap that serves as a guiding light, illuminating the path to success. This strategic roadmap outlines the captivating vision and the progressive direction for our product offering over time. By carefully charting this course, I empower teams to stay focused, remain motivated, and make impactful decisions that drive the achievement of our goals.",
-          "With the product roadmap as our compass, we navigate through challenges and seize opportunities, ensuring that our product stays relevant and ahead of the curve. It becomes the backbone of our success, painting a vivid picture of our future and instilling confidence in our stakeholders.",
-          "As a Technology Product Manager, I embrace the responsibility of shaping the product's destiny. I bring my expertise in communication, stakeholder management, and strategic planning to craft a compelling product roadmap that ignites enthusiasm and drives success. Together, we will embark on an exciting journey, turning our vision into reality, and achieving remarkable milestones along the way."
         ]
       }
     ],
