@@ -64,7 +64,7 @@ function About() {
                 className="about-resume-icon"
               />
               <a
-                href="https://1drv.ms/b/s!AtKTEtRydYtmmEMB9HKbnazj3iOw?e=vdQH8r"
+                href="https://1drv.ms/b/s!AtKTEtRydYtmmEVSPx6tWwKlur5t?e=CJBbDc"
                 className="about-resume-btn"
               >
                 Download Resume
