@@ -16,8 +16,8 @@ function Main() {
     <>
       <Hero />
       <About />
-      <Education />
       <Work />
+      <Education />
       <Skills />
       {/* <Works /> */}
       <Contact />

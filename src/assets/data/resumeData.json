@@ -1,12 +1,12 @@
 {
   "main": {
     "name": "Matt Gainer Developement",
-    "description": "With a genuine passion for web development and a knack for creating with code, I thrive on the boundless possibilities it offers.",
+    "description": "With a genuine passion for creating enaging user experiences, I thrive on the boundless possibilities it offers.",
     "image": "profilepic.jpg",
     "bio": [
-      "With a genuine passion for web development and a knack for creating with code, I thrive on the boundless possibilities it offers. As a seasoned product owner, I bring a well-rounded skill set to the table, capable of delivering exceptional value to customers. By merging my technical expertise and creative mindset, I design immersive user experiences that go beyond functionality. Moreover, my strategic thinking ensures that every web solution aligns seamlessly with business goals and customer expectations.",
-      "Staying abreast of the latest industry trends, I continually update my skills to leverage cutting-edge technologies. My diverse background empowers me to approach development projects from a holistic perspective, considering both the technical aspects and the overall customer experience. I strive to develop web solutions that leave a lasting impact, resonating with users on both functional and emotional levels.",
-      "Passion, expertise, and a customer-centric focus drive me to create exceptional web solutions. Through my dedication to staying ahead of the curve and my ability to blend creativity with technical proficiency, I am well-equipped to bring value to any web development project. With me, you'll have a dynamic candidate who can deliver remarkable customer experiences and contribute to the growth and success of your organization."
+      "As a seasoned product owner, I bring a well-rounded skill set and thrive on delivering exceptional customer value. By merging my technical expertise and creative mindset, I design immersive user experiences that transcend mere functionality. Moreover, my strategic thinking ensures that every web solution seamlessly aligns with business goals and exceeds customer expectations.",
+      "My commitment to staying updated with the latest industry trends is unwavering. I continually update my skills to leverage cutting-edge technologies, ensuring that I can approach development projects from a holistic perspective. This approach allows me to consider both the technical aspects and the overall customer experience, striving to develop web solutions that leave a lasting impact and resonate with users on both functional and emotional levels.",
+      "Passion, expertise, and a customer-centric focus drive me to create exceptional web solutions. I am well-equipped to bring value to any web development project through my dedication to staying ahead of the curve and my ability to blend creativity with technical proficiency. With me, you'll have a dynamic candidate who can deliver remarkable customer experiences and contribute to the growth and success of your organization."
     ],
     "contactmessage": "Unlock the potential of your development projects and let's connect! Whether by phone or message, I eagerly await the chance to delve into your specific needs and explore how my expertise can make a meaningful impact.",
     "email": "matt.gainer126@gmail.com",
@@ -20,7 +20,7 @@
       "zip": " L1V 3H1"
     },
 
-    "resumedownload": "/documents/Matt_Gainer_Resume_Web_Developer_v1.1.docx",
+    "resumedownload": "https://1drv.ms/b/s!AtKTEtRydYtmmEMB9HKbnazj3iOw?e=vdQH8r",
     "social": [
       {
         "name": "linkedin",
@@ -54,7 +54,7 @@
         "degree": "Scrum Product Owner Certificate",
         "graduated": "Sept 2019",
         "description": [
-          "As a seasoned Technology Product Manager, I have mastered the art of effective communication with stakeholders at every level. From engaging with customers to collaborating with business managers and development teams, I understand the importance of ensuring clarity in goals and aligning the vision with business objectives. A crucial tool in maintaining that unwavering vision is the creation of a dynamic product roadmap.",
+          "As a seasoned Product Owner, I have mastered the art of effective communication with stakeholders at every level. From engaging with customers to collaborating with business managers and development teams, I understand the importance of ensuring clarity in goals and aligning the vision with business objectives. A crucial tool in maintaining that unwavering vision is the creation of a dynamic product roadmap.",
           "With my expertise, I craft a compelling product roadmap that serves as a guiding light, illuminating the path to success. This strategic roadmap outlines the captivating vision and the progressive direction for our product offering over time. By carefully charting this course, I empower teams to stay focused, remain motivated, and make impactful decisions that drive the achievement of our goals.",
           "With the product roadmap as our compass, we navigate through challenges and seize opportunities, ensuring that our product stays relevant and ahead of the curve. It becomes the backbone of our success, painting a vivid picture of our future and instilling confidence in our stakeholders.",
           "As a Technology Product Manager, I embrace the responsibility of shaping the product's destiny. I bring my expertise in communication, stakeholder management, and strategic planning to craft a compelling product roadmap that ignites enthusiasm and drives success. Together, we will embark on an exciting journey, turning our vision into reality, and achieving remarkable milestones along the way."
@@ -64,10 +64,10 @@
     "work": [
       {
         "company": "President's Choice Financial and Services",
-        "title": "Technology Product Management",
+        "title": "Product Owner",
         "years": "February 2009 - Present",
         "description": [
-          "I spearheaded the successful launch of the groundbreaking Presidents Choice Financial secured banking platform, revolutionizing the way clients manage their finances. This cutting-edge platform integrates the functionalities of PC MasterCard and PC Money Account, providing clients with a seamless and empowering banking experience.",
+          "As a key contributor toward the successful launch of the Presidents Choice Financial secured banking platform, digitized the way clients manage their finances. This  platform integrates the functionalities of PC MasterCard and PC Money Account, providing clients with a seamless and empowering banking experience.",
           "With this powerful platform, clients gain the ability to effortlessly move money, customize their communication preferences, and set up personalized alerting and notification systems. They can effortlessly track their transaction spending, set and achieve financial goals, and gain insights into their PC Points transactions. The platform also facilitates secure messaging with our dedicated customer service team, ensuring prompt and reliable support.",
           "We understand the importance of data privacy and convenience. That's why our platform empowers clients to perform hassle-free personal information updates, set travel notices, and make password updates securely and conveniently.",
           "This dynamic and comprehensive platform embodies our commitment to delivering excellence in banking services. By streamlining and enhancing every aspect of the banking journey, we empower our clients to take control of their financial future. With the Presidents Choice Financial secured banking platform, we are revolutionizing the way individuals interact with their money, providing them with the tools and features they need to achieve their financial aspirations with confidence and ease."
@@ -88,44 +88,11 @@
     ],
     "skills": [
       {
-        "name": "REACTJS",
-        "level": "95"
+        "name": "USER CENTERED DESIGN",
+        "level": "100"
       },
       {
-        "name": "JAVASCRIPT",
-        "level": "90"
-      },
-      {
-        "name": "SCSS",
-        "level": "90"
-      },
-      {
-        "name": "CSS",
-        "level": "90"
-      },
-      {
-        "name": "WEBAPI",
-        "level": "90"
-      },
-
-      {
-        "name": "KNEX",
-        "level": "80"
-      },
-      {
-        "name": "NODEJS",
-        "level": "80"
-      },
-      {
-        "name": "EXPRESS",
-        "level": "80"
-      },
-      {
-        "name": "DOM",
-        "level": "90"
-      },
-      {
-        "name": "AGILE",
+        "name": "AGILE DELIVERY",
         "level": "100"
       },
       {
@@ -137,21 +104,19 @@
         "level": "100"
       },
       {
-        "name": "TS2 (TSYS)",
+        "name": "TS2(TSYS)",
         "level": "100"
       },
+
       {
-        "name": "MYSQL",
-        "level": "80"
+        "name": "STAKEHOLDER MANAGEMENT",
+        "level": "100"
       },
       {
         "name": "BUSINESS PROCESS MODELING",
         "level": "100"
       },
-      {
-        "name": "BUSINESS PROCESS MODELING",
-        "level": "100"
-      },
+
       {
         "name": "BUSINESS CASE MANAGEMENT",
         "level": "100"
@@ -159,6 +124,32 @@
       {
         "name": "REQUIREMENTS GATHERING AND ANALYSIS",
         "level": "100"
+      },
+      {
+        "name": "REACTJS",
+        "level": "95"
+      },
+      {
+        "name": "JAVASCRIPT",
+        "level": "90"
+      },
+      {
+        "name": "SCSS",
+        "level": "90"
+      },
+
+      {
+        "name": "WEBAPI",
+        "level": "90"
+      },
+
+      {
+        "name": "NODEJS",
+        "level": "80"
+      },
+      {
+        "name": "EXPRESS",
+        "level": "80"
       }
     ]
   }
