@@ -1,4 +1,3 @@
-
 import "./assets/styles/global.scss";
 import Main from "./pages/main";
 

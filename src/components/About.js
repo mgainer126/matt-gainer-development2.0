@@ -1,9 +1,8 @@
-import data from "../assets/data/resumeData.json";
 import download from "../assets/images/download.svg";
 import meImage from "../assets/images/profilepic.jpg";
 import React from "react";
 
-function About() {
+function About({ bio, bioDescription, contactInfo }) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
 
@@ -12,7 +11,7 @@ function About() {
       entries.forEach((entry) => setVisible(entry.isIntersecting));
     });
 
-    const currentRef = domRef.current; // Create a local variable
+    const currentRef = domRef.current;
 
     if (currentRef) {
       observer.observe(currentRef);
@@ -26,54 +25,60 @@ function About() {
   }, []);
 
   return (
-    <section className="about">
-      <div
-        className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
-        ref={domRef}
-      >
-        <section className="about-about">
-          <img src={meImage} alt="me" className="about-img" />
-          <section className="about-me">
-            <h2 className="about-title">About Me</h2>
-            {data.main.bio.map((item, index) => {
-              return (
-                <p className="about-description" key={index}>
-                  {item}
+    <div>
+      {bio && bioDescription && contactInfo && (
+        <section className="about">
+          <div
+            className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
+            ref={domRef}
+          >
+            <section className="about-about">
+              <img src={meImage} alt="me" className="about-img" />
+              <section className="about-me">
+                <h2 className="about-title">About Me</h2>
+                <p className="about-description">{bio}</p>
+                {bioDescription.map((item, index) => {
+                  return (
+                    <p className="about-description" key={index}>
+                      {item}
+                    </p>
+                  );
+                })}
+              </section>
+            </section>
+            <section className="about-contact">
+              <div>
+                <h2 className="about-title">Contact Details</h2>
+                <p className="about-company">{contactInfo.companyName}</p>
+                <p className="about-company">{contactInfo.address}</p>
+                <p className="about-company">
+                  {contactInfo.city}
+                  {contactInfo.province}
+                  {contactInfo.postal}
                 </p>
-              );
-            })}
-          </section>
-        </section>
-        <section className="about-contact">
-          <div>
-            <h2 className="about-title">Contact Details</h2>
-            <p className="about-company">{data.main.name}</p>
-            <p className="about-company">{data.main.address.street}</p>
-            <p className="about-company">
-              {data.main.address.city}, {data.main.address.state},{" "}
-              {data.main.address.zip}{" "}
-            </p>
-            <p className="about-company">{data.main.phone}</p>
-            <p className="about-company">{data.main.email}</p>
-          </div>
-          <div>
-            <div className="about-resume">
-              <img
-                src={download}
-                alt="download"
-                className="about-resume-icon"
-              />
-              <a
-                href="https://1drv.ms/b/s!AtKTEtRydYtmmEZNXg9i5obAU9F4?e=F403a6"
-                className="about-resume-btn"
-              >
-                Download Resume
-              </a>
-            </div>
+                <p className="about-company">{contactInfo.phone}</p>
+                <p className="about-company">{contactInfo.email}</p>
+              </div>
+              <div>
+                <div className="about-resume">
+                  <img
+                    src={download}
+                    alt="download"
+                    className="about-resume-icon"
+                  />
+                  <a
+                    href="https://1drv.ms/b/s!AtKTEtRydYtmmEZNXg9i5obAU9F4?e=F403a6"
+                    className="about-resume-btn"
+                  >
+                    Download Resume
+                  </a>
+                </div>
+              </div>
+            </section>
           </div>
         </section>
-      </div>
-    </section>
+      )}
+    </div>
   );
 }
 
