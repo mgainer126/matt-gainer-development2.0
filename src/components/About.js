@@ -1,7 +1,7 @@
 import download from "../assets/images/download.svg";
 import React from "react";
 
-function About({ bio, bioDescription, contactInfo, profileImg }) {
+function About({ bio, bioDescription, contactInfo, profileImg, resume }) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
 
@@ -25,7 +25,7 @@ function About({ bio, bioDescription, contactInfo, profileImg }) {
 
   return (
     <div>
-      {bio && bioDescription && contactInfo && profileImg && (
+      {bio && bioDescription && contactInfo && profileImg && resume && (
         <section className="about">
           <div
             className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
@@ -51,7 +51,7 @@ function About({ bio, bioDescription, contactInfo, profileImg }) {
                 <p className="about-company">{contactInfo.companyName}</p>
                 <p className="about-company">{contactInfo.address}</p>
                 <p className="about-company">
-                  {contactInfo.city} {contactInfo.province} {contactInfo.postal}{" "}
+                  {contactInfo.city} {contactInfo.province} {contactInfo.postal}
                 </p>
                 <p className="about-company">{contactInfo.email}</p>
               </div>
@@ -62,10 +62,7 @@ function About({ bio, bioDescription, contactInfo, profileImg }) {
                     alt="download"
                     className="about-resume-icon"
                   />
-                  <a
-                    href="https://1drv.ms/b/s!AtKTEtRydYtmmEZNXg9i5obAU9F4?e=F403a6"
-                    className="about-resume-btn"
-                  >
+                  <a href={`https:${resume}`} className="about-resume-btn">
                     Download Resume
                   </a>
                 </div>

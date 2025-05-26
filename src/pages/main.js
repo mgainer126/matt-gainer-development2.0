@@ -19,6 +19,7 @@ function Main() {
   const [bioDescription, setBioDescription] = useState([]);
   const [contactInfo, setContactInfo] = useState([]);
   const [profileImg, setProfileImg] = useState([]);
+  const [resume, setResume] = useState([]);
 
   const url =
     "https://cdn.contentful.com/spaces/qzprt5insnuh/environments/master/entries";
@@ -38,6 +39,7 @@ function Main() {
         setBioDescription(response.data.items[0].fields.jobDescription);
         setContactInfo(response.data.items[0].fields.contactInfo);
         setProfileImg(response.data.includes.Asset[1].fields.file.url);
+        setResume(response.data.includes.Asset[0].fields.file.url);
       })
       .catch((error) => {
         console.error(
@@ -47,6 +49,7 @@ function Main() {
       });
   }, []);
 
+  console.log(resume);
   return (
     <div>
       <Hero />
@@ -55,6 +58,7 @@ function Main() {
         bioDescription={bioDescription}
         contactInfo={contactInfo}
         profileImg={profileImg}
+        resume={resume}
       />
       <Work work={work} />
       <Education />
