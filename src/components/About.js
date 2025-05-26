@@ -32,7 +32,7 @@ function About({ bio, bioDescription, contactInfo, profileImg, resume }) {
             ref={domRef}
           >
             <section className="about-about">
-              <img src={profileImg} alt="me" className="about-img" />
+              <img src={`https:${profileImg}`} alt="me" className="about-img" />
               <section className="about-me">
                 <h2 className="about-title">About Me</h2>
                 <p className="about-description">{bio}</p>
