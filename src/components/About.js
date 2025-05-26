@@ -51,11 +51,8 @@ function About({ bio, bioDescription, contactInfo, profileImg }) {
                 <p className="about-company">{contactInfo.companyName}</p>
                 <p className="about-company">{contactInfo.address}</p>
                 <p className="about-company">
-                  {contactInfo.city}
-                  {contactInfo.province}
-                  {contactInfo.postal}
+                  {contactInfo.city} {contactInfo.province} {contactInfo.postal}{" "}
                 </p>
-                <p className="about-company">{contactInfo.phone}</p>
                 <p className="about-company">{contactInfo.email}</p>
               </div>
               <div>
