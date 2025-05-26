@@ -1,8 +1,7 @@
 import download from "../assets/images/download.svg";
-import meImage from "../assets/images/profilepic.jpg";
 import React from "react";
 
-function About({ bio, bioDescription, contactInfo }) {
+function About({ bio, bioDescription, contactInfo, profileImg }) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
 
@@ -26,14 +25,14 @@ function About({ bio, bioDescription, contactInfo }) {
 
   return (
     <div>
-      {bio && bioDescription && contactInfo && (
+      {bio && bioDescription && contactInfo && profileImg && (
         <section className="about">
           <div
             className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
             ref={domRef}
           >
             <section className="about-about">
-              <img src={meImage} alt="me" className="about-img" />
+              <img src={`https:${profileImg}`} alt="me" className="about-img" />
               <section className="about-me">
                 <h2 className="about-title">About Me</h2>
                 <p className="about-description">{bio}</p>

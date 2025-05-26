@@ -12,17 +12,17 @@ import {
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-// import Loading from "../components/Loading";
 function Main() {
   const [work, setWork] = useState([]);
   const [skills, setSkills] = useState([]);
   const [bio, setBio] = useState([]);
   const [bioDescription, setBioDescription] = useState([]);
   const [contactInfo, setContactInfo] = useState([]);
+  const [profileImg, setProfileImg] = useState([]);
 
   const url =
     "https://cdn.contentful.com/spaces/qzprt5insnuh/environments/master/entries";
-  const accessToken = "-k06zkyGat0RAuTfTthR-LP6bIwjVFhB0Zu44tjVCYY"; // Replace with your actual Contentful access token
+  const accessToken = "-k06zkyGat0RAuTfTthR-LP6bIwjVFhB0Zu44tjVCYY";
 
   useEffect(() => {
     axios
@@ -37,6 +37,7 @@ function Main() {
         setWork(response.data.items[1].fields);
         setBioDescription(response.data.items[0].fields.jobDescription);
         setContactInfo(response.data.items[0].fields.contactInfo);
+        setProfileImg(response.data.includes.Asset[1].fields.file.url);
       })
       .catch((error) => {
         console.error(
@@ -53,6 +54,7 @@ function Main() {
         bio={bio.description}
         bioDescription={bioDescription}
         contactInfo={contactInfo}
+        profileImg={profileImg}
       />
       <Work work={work} />
       <Education />
