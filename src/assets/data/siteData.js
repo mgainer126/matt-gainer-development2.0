@@ -55,6 +55,10 @@ const skills = [
     level: "90",
   },
   {
+    name: "CONTENTFUL",
+    level: "95",
+  },
+  {
     name: "SCSS",
     level: "90",
   },

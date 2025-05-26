@@ -144,6 +144,10 @@
         "level": "95"
       },
       {
+        "name": "CONTENTFUL",
+        "level": "95"
+      },
+      {
         "name": "JAVASCRIPT",
         "level": "90"
       },
