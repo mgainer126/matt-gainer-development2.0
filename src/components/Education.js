@@ -1,7 +1,6 @@
 import React from "react";
-import data from "../assets/data/resumeData.json";
 
-function Education() {
+function Education({ education }) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
 
@@ -25,30 +24,32 @@ function Education() {
 
   return (
     <section className="education">
-      <div
-        className={`fade-in-left ${isVisible ? "is-visible" : ""} alignment`}
-        ref={domRef}
-      >
-        <h2 className="education-title">EDUCATION</h2>
-        <div className="education-list">
-          {data.resume.education.map((item, index) => {
-            return (
-              <div className="education-item" key={index}>
-                <p className="education-item-title">{item.school}</p>
-                <p className="education-item-major">{item.degree}</p>
-                <p className="education-item-date">{item.graduated}</p>
-                {item.description.map((item, index) => {
-                  return (
-                    <p className="education-item-description" key={index}>
-                      {item}
-                    </p>
-                  );
-                })}
-              </div>
-            );
-          })}
+      {education && (
+        <div
+          className={`fade-in-left ${isVisible ? "is-visible" : ""} alignment`}
+          ref={domRef}
+        >
+          <h2 className="education-title">EDUCATION</h2>
+          <div className="education-list">
+            {education.map((item, index) => {
+              return (
+                <div className="education-item" key={index}>
+                  <p className="education-item-title">{item.school}</p>
+                  <p className="education-item-major">{item.degree}</p>
+                  <p className="education-item-date">{item.graduated}</p>
+                  {item.description.map((item, index) => {
+                    return (
+                      <p className="education-item-description" key={index}>
+                        {item}
+                      </p>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }

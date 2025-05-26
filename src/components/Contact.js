@@ -1,4 +1,3 @@
-import data from "../assets/data/resumeData.json";
 import emailjs from "emailjs-com";
 import React from "react";
 import icon from "../assets/images/logo.png";
@@ -58,7 +57,12 @@ function Contact() {
       >
         <div>
           <h2 className="contact-title">GET IN TOUCH.</h2>
-          <p className="contact-description">{data.main.contactmessage}</p>
+          <p className="contact-description">
+            "Unlock the potential of your development projects and let's
+            connect! Whether by phone or message, I eagerly await the chance to
+            delve into your specific needs and explore how my expertise can make
+            a meaningful impact."
+          </p>
           <img src={icon} alt="logo" className="contact-logo" />
         </div>
         <div className="row">

@@ -3,7 +3,7 @@ import {
   Hero,
   About,
   Education,
-  //   Works,
+  Works,
   Skills,
   Work,
   Contact,
@@ -20,6 +20,8 @@ function Main() {
   const [profileImg, setProfileImg] = useState([]);
   const [resume, setResume] = useState([]);
   const [skills, setSkills] = useState([]);
+  const [education, setEducation] = useState([]);
+  const [projects, setProjects] = useState([]);
 
   const url =
     "https://cdn.contentful.com/spaces/qzprt5insnuh/environments/master/entries";
@@ -34,13 +36,15 @@ function Main() {
         },
       })
       .then((response) => {
+        setResume(response.data.includes.Asset[1].fields.file.url);
+        setEducation(response.data.items[1].fields.educationalHistory);
+        setSkills(response.data.items[2].fields.skills);
+        setProfileImg(response.data.items[0].fields.contactInfo.meimage);
         setBio(response.data.items[0].fields);
-        setWork(response.data.items[1].fields);
         setBioDescription(response.data.items[0].fields.jobDescription);
         setContactInfo(response.data.items[0].fields.contactInfo);
-        setProfileImg(response.data.includes.Asset[1].fields.file.url);
-        setResume(response.data.includes.Asset[0].fields.file.url);
-        setSkills(response.data.items[0].fields.skills);
+        setWork(response.data.items[5].fields.details);
+        setProjects(response.data.items[1].fields.projects);
       })
       .catch((error) => {
         console.error(
@@ -61,9 +65,9 @@ function Main() {
         resume={resume}
       />
       <Work work={work} />
-      <Education />
+      <Education education={education} />
       <Skills skills={skills} />
-      {/* <Works /> */}
+      <Works projects={projects} />
       <Contact />
       <Footer />
     </div>

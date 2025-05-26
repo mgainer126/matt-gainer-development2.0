@@ -1,0 +1,38 @@
+[
+  {
+    title: "Resume Website",
+    category: "Work",
+    image: image1,
+    url: "https://www.mattgainerdevelopment.com/",
+  },
+  {
+    title: "Foodio Fare",
+    category: "Food",
+    image: image3,
+    url: "https://www.foodiofare.com/",
+  },
+  {
+    title: "Brewer Cave",
+    category: "Food",
+    image: image4,
+    url: "https://www.brewercave.com/",
+  },
+  {
+    title: "Cool Hunterz",
+    category: "eCommerce",
+    image: image5,
+    url: "https://coolhunterz.netlify.app/",
+  },
+  {
+    title: "ProGear 180",
+    category: "eCommerce",
+    image: image6,
+    url: "https://progear180.com/",
+  },
+  {
+    title: "Life Pure Essentials",
+    category: "eCommerce",
+    image: image7,
+    url: "https://lifepureessentials.com/",
+  },
+]

@@ -1,8 +1,6 @@
 import React from "react";
-import { projects } from "../assets/data/siteData.js";
 
-function Works() {
-  console.log(projects);
+function Works({ projects }) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
 
@@ -25,15 +23,15 @@ function Works() {
   }, []);
   return (
     <section className="works">
-      <div
-        className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
-        ref={domRef}
-      >
-        <h2 className="works-title">CHECK OUT SOME OF MY WORKS</h2>
-        <div className="works-list">
-          {projects.map((project, index) => {
-            return (
-              <>
+      {projects && (
+        <div
+          className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
+          ref={domRef}
+        >
+          <h2 className="works-title">CHECK OUT SOME OF MY WORKS</h2>
+          <div className="works-list">
+            {projects.map((project, index) => {
+              return (
                 <a href={project.url} key={index}>
                   <div className="works-item">
                     <img
@@ -44,11 +42,11 @@ function Works() {
                     <div className="works-item-title">{project.title}</div>
                   </div>
                 </a>
-              </>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }
