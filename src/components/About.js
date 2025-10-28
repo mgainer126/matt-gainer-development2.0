@@ -63,12 +63,12 @@ function About() {
                 alt="download"
                 className="about-resume-icon"
               />
-              <a
+              {/* <a
                 href="https://1drv.ms/b/s!AtKTEtRydYtmmEZNXg9i5obAU9F4?e=F403a6"
                 className="about-resume-btn"
               >
                 Download Resume
-              </a>
+              </a> */}
             </div>
           </div>
         </section>
