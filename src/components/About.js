@@ -1,5 +1,5 @@
 import data from "../assets/data/resumeData.json";
-import download from "../assets/images/download.svg";
+// import download from "../assets/images/download.svg";
 import meImage from "../assets/images/profilepic.jpg";
 import React from "react";
 
