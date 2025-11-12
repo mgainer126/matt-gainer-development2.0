@@ -4,7 +4,7 @@ import {
   Hero,
   About,
   Education,
-  //   Works,
+  Works,
   Skills,
   Work,
   Contact,
@@ -19,7 +19,7 @@ function Main() {
       <Work />
       <Education />
       <Skills />
-      {/* <Works /> */}
+      <Works />
       <Contact />
       <Footer />
     </>
