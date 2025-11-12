@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+### 👋 About me
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Senior Digital Product Manager (fintech) who ships compliant, customer-loved features across web & mobile.
+- Hands-on with React, Tailwind, product analytics (Adobe/Dynatrace), and integrations (TSYS/loyalty).
+- I like turning ambiguous problems into measurable outcomes—and documenting the path so teams can repeat it.
 
-## Available Scripts
+### 🧭 What I’m focused on
 
-In the project directory, you can run:
+- Modernizing web/app experiences with React + content platforms.
+- Loyalty & payments features (EPP, balance transfers, dynamic CVC, alerts).
+- Strong operational readiness: auditability, controls, incident comms, and KPI dashboards.
 
-### `npm start`
+### 🚀 Selected projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **matt-gainer-development2.0** – Personal site refresh and component library scaffolding.  
+  `React` `Tailwind`  
+  https://github.com/mgainer126/matt-gainer-development2.0
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **mattGainerDevelopment** – Earlier site iteration & experiments.  
+  `JavaScript` `Web`  
+  https://github.com/mgainer126/mattGainerDevelopment
 
-### `npm test`
+- **foodiofare** – Points/rewards concept & UI exploration.  
+  `JavaScript`  
+  https://github.com/mgainer126/foodiofare
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **InStock** – Inventory dashboard training project.  
+  `JavaScript`  
+  https://github.com/mgainer126/InStock
 
-### `npm run build`
+- **survey-app** – Lightweight survey prototype.  
+  `JavaScript`  
+  https://github.com/mgainer126/survey-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **matthew-gainer-travelsite** / **matt-gainer-bandsite** – UI/UX practice sites.  
+  `HTML` `CSS`  
+  https://github.com/mgainer126/matthew-gainer-travelsite  
+  https://github.com/mgainer126/matt-gainer-bandsite
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠️ Stack & tools
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Build:** React, JavaScript/TypeScript, Tailwind, Node
+- **Product:** Jira/Confluence, Roadmapping/OKRs, Stakeholder comms, Release notes
+- **Data & quality:** Adobe Analytics, Dynatrace, KPI scorecards, A/B ideas, accessibility
+- **Compliance:** OSFI/FCAC awareness, audit evidence, risk controls
 
-### `npm run eject`
+### 📈 Operating style
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clear problem statements → measurable outcomes → crisp comms (customers, ops, compliance).
+- Prefer iterative launches with guardrails, alerts, and dashboards on day one.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🤝 Let’s collaborate
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Got a web/app idea in fintech, loyalty, or CX that you want to pressure-test or prototype?  
+Open an issue on any repo or connect via my site.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
