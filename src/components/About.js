@@ -32,7 +32,11 @@ function About() {
         ref={domRef}
       >
         <section className="about-about">
-          <img src={meImage} alt="me" className="about-img" />
+          <img
+            src={`https://images.ctfassets.net/qzprt5insnuh/DhU9jbFd6fets3Cfn6xSU/afa7cf672c038d3779ff60de2919ed4b/IMG_5024.jpeg`}
+            alt="me"
+            className="about-img"
+          />
           <section className="about-me">
             <h2 className="about-title">About Me</h2>
             {data.main.bio.map((item, index) => {
